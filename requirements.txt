@@ -1,0 +1,7 @@
+# YouTube Music Prayer Player Dependencies
+
+# YouTube downloader (critical - must be kept updated)
+yt-dlp>=2024.0.0
+
+# HTTP library (usually pre-installed via system packages)
+# requests>=2.32.0
