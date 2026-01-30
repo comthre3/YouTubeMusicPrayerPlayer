@@ -125,16 +125,16 @@ echo "Step 8: Installing dependencies..."
 echo "-----------------------------------------"
 if [ -f "$INSTALL_DIR/requirements.txt" ]; then
     echo "  Installing Python packages..."
-    pip3 install -r "$INSTALL_DIR/requirements.txt" --upgrade
+    pip3 install -r "$INSTALL_DIR/requirements.txt" --upgrade --break-system-packages
     echo "  ✓ Python dependencies installed"
 else
     echo "  No requirements.txt found"
     echo "  Installing essential packages..."
-    pip3 install requests --upgrade
+    pip3 install requests --upgrade --break-system-packages
 fi
 
 echo "  Updating yt-dlp..."
-pip3 install -U yt-dlp
+pip3 install -U yt-dlp --break-system-packages
 echo "  ✓ yt-dlp updated"
 echo ""
 
