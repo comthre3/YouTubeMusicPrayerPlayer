@@ -1,0 +1,28 @@
+# Log files
+*.log
+
+# Cache files
+playlist_cache.json
+
+# IDE and editor files
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*~
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Config backup
+config.json.old
+
+# Temporary files
+*.tmp
+.DS_Store
+
+# NOT_IMPORTANT folder
+NOT_IMPORTANT/
